@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* common code  */
+
+.container {
+    /* background: blue; */
+    width: 85%;
+    margin: 0 auto;
+}
+
+button{
+    padding: 13px 30px;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    background: brown;
+    color: white;
+}
+
+/* common code  */
+
+header {
+    height: 70px;
+    width: 100%;
+    /* background-color: brown; */
+    background: white;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+header .logo .lg {
+    height: 20px;
+    width: 20px;
+    background: black;
+    border-radius: 50%;
+}
+
+header .logo .lg1 {
+    height: 20px;
+    width: 20px;
+    background: brown;
+    margin: 0 5px;
+}
+
+header .logo h1 {}
+
+header nav {
+    float: right;
+    margin-top: -23px;
+}
+
+header nav ul {}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 0 0 50px;
+}
+
+header nav ul li a {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+/* home */
+
+.home{
+    height: 95vh;
+    width: 100%;
+    background: url(https://cdn.corporatefinanceinstitute.com/assets/Types-of-Businesses-Opener_v2.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+.home .bg{
+    height: 95vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.home .bg h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-top: 150px;
+}
+.home .bg p{
+    padding: 10px 100px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* home */
